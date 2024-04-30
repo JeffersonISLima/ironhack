@@ -1,0 +1,99 @@
+/* Colors {
+  Green {
+    lighter: #5FD3B3
+    Light: #35D3A7
+    Medium: #00A779
+    Darker: #006D4F
+    Dark: #1F7D63
+  }
+  Blue {
+    Lighter: #6899D3
+    Light: #4284D3
+    Medium: #04346C
+    Darker: 274E7D
+  }
+
+  Orange {
+  Medium: #FF5C00
+  Light: #FF8540
+  }
+}
+
+
+  white: #fff
+  Pearl acqua(darker): #52897B
+  Magic mint(lighter): #A5FFD6
+  light salmon pink: #FFA69E
+  Pastel red: #FF686B
+  grey: #8492A6
+*/
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+section {
+  margin-top: 40px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+form > input {
+  width: 240px;
+  height: 40px;
+  margin: 5px 20px;
+  border-radius: 30px;
+  border: none;
+  padding: 7px;
+  background-color: rgb(255, 177, 131)
+}
+
+form > input:focus {
+  outline: none;
+}
+
+form > select {
+  width: 240px;
+  height: 40px;
+  margin: 20px;
+  border-radius: 30px;
+  border: none;
+  padding: 7px;
+}
+
+form > select:focus {
+  outline: none;
+}
+
+input[type="file"] {
+  height: 30px;
+  width: 400px;
+  background-color: transparent;
+}
+
+input[type="file"] button {
+  background-color: red;
+}
