@@ -1,0 +1,4 @@
+# pack-refs with: peeled fully-peeled sorted 
+9d78a33f896231dbcac1cfce8d7bae6a8539f4e5 refs/remotes/origin/master
+b5d6031a4f4018d51cb561fbd9563e0b43b49cd6 refs/remotes/origin/revert-147-master
+2a9f4d12878b6e3f7236a85ff1bf8451f49e3c44 refs/remotes/origin/sandra-simplify-lab
